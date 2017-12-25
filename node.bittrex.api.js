@@ -320,7 +320,7 @@ var NodeBittrexApi = function() {
       credentialApiCall(opts.baseUrl + '/account/withdraw', callback, options);
     }
   };
-}();
+};
 
 module.exports = NodeBittrexApi;
 
